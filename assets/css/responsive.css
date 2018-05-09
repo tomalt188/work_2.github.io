@@ -1,0 +1,190 @@
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-testimonial i.fa {
+        font-size: 50px;
+    }
+}
+
+
+/* Tablet Layout */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav li a {
+        padding: 15px 5px;
+    }
+
+    .portfolio-caption h4 {
+        margin-top: 80px;
+    }
+    .single-testimonial img {
+        margin-bottom: 100px;
+    }
+
+    .action-area .btn {
+        margin-top: 15px;
+    }
+
+    .about-img img {
+        margin-bottom: 30px;
+    }
+	
+	#contactgoogleMap {
+		height: 642px;
+	}
+
+
+}
+
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    body, p {
+        line-height: 25px;
+    }
+    .tmail, .tphone, .tsocial {
+        line-height: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .section-big {
+        padding: 50px 0px;
+    }
+    
+    .section-title h2 {
+        line-height: 30px;
+    }
+
+    .btn, input[type='submit'] {
+        margin-bottom: 0px;
+        padding: 8px 20px;
+    }
+    img {
+        max-width: 100%;
+    }
+    .skill-area {
+        padding-top: 0px;
+    }
+
+    .navbar-toggle {
+        margin-right: 0px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        background: #f1f1f1;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav {
+        margin: 0;
+    }
+    .mainmenu .navbar-nav li {
+        float: none;
+        display: block;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+        color: inherit;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        margin: 20px -15px;
+        padding: 0;
+        box-shadow: 0px 3px 5px 0px #999;
+    }
+    .navbar-toggle {}
+    a.about-button {
+        margin-top: 0;
+    }
+
+    .about-img img {
+        margin-bottom: 30px;
+    }
+
+    /* Portfolio area */
+    .work-items .item {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .filters li {
+        margin: 0px 10px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .single-testimonial {
+        text-align: center;
+    }
+    .single-testimonial img {
+        float: none;
+        overflow: hidden;
+        margin-right: 0px;
+    }
+
+    .contact-info,
+    .video-area .accordion {
+        margin-top: 30px;
+    }
+
+    .action-area .btn {
+        margin-top: 15px;
+    }
+
+    .price-item a.btn {
+        display: inline-block;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+    }
+
+    .subscribe-box p {
+        font-size: 17px;
+    }
+
+    .single-testimonial p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .caption p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+	
+	.map-area {
+		position: relative;
+		width: 100%;
+	}
+	.contact-form {
+		margin-right: 0px;
+	}
+
+
+}
+
+
+/* Small Mobile Layout */
+
+@media only screen and (max-width: 480px) {
+    .single-testimonial img {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .single-testimonial i.fa {
+        margin-bottom: 15px;
+    }
+
+    .caption h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    
+}
